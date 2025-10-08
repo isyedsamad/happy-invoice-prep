@@ -10,7 +10,7 @@ const Header = () => {
           <div className="p-2 bg-gradient-to-br from-primary to-primary-glow rounded-lg">
             <FileText className="h-6 w-6 text-white" />
           </div>
-          <span className="text-xl font-bold text-primary">
+          <span className="text-xl font-bold text-foreground">
             HappyInvoice
           </span>
         </div>
