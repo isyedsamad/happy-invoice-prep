@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { FileText } from "lucide-react";
+import ThemeToggle from "./ThemeToggle";
 
 const Header = () => {
   return (
@@ -27,6 +28,7 @@ const Header = () => {
         </div>
 
         <div className="flex items-center gap-3">
+          <ThemeToggle />
           <Button variant="ghost">Sign In</Button>
           <Button className="bg-gradient-to-r from-primary to-primary-glow hover:shadow-lg hover:shadow-primary/50">
             Get Started
