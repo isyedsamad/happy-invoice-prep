@@ -51,7 +51,7 @@ const HowItWorks = () => {
               {/* Content */}
               <div className="flex-1 bg-card rounded-2xl p-8 shadow-lg border-2 border-border/50 hover:shadow-xl hover:border-primary/20 transition-all duration-300 group">
                 <div className="flex items-start gap-4">
-                  <div className="p-3 bg-gradient-to-br from-primary/10 to-accent/10 rounded-lg group-hover:scale-110 transition-transform">
+                  <div className="p-3 bg-gradient-to-br from-primary/10 to-primary/5 rounded-lg group-hover:scale-110 transition-transform">
                     <step.icon className="h-8 w-8 text-primary" />
                   </div>
                   <div className="flex-1">

@@ -7,10 +7,10 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="p-2 bg-gradient-to-br from-primary to-accent rounded-lg">
+              <div className="p-2 bg-gradient-to-br from-primary to-primary-glow rounded-lg">
                 <FileText className="h-5 w-5 text-white" />
               </div>
-              <span className="text-lg font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+              <span className="text-lg font-bold bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
                 HappyInvoice
               </span>
             </div>

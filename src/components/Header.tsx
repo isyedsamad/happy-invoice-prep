@@ -7,10 +7,10 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
       <nav className="container mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <div className="p-2 bg-gradient-to-br from-primary to-accent rounded-lg">
+          <div className="p-2 bg-gradient-to-br from-primary to-primary-glow rounded-lg">
             <FileText className="h-6 w-6 text-white" />
           </div>
-          <span className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+          <span className="text-xl font-bold bg-gradient-to-r from-primary to-primary-glow bg-clip-text text-transparent">
             HappyInvoice
           </span>
         </div>

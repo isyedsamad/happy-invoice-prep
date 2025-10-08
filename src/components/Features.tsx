@@ -55,7 +55,7 @@ const Features = () => {
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <CardContent className="p-6">
-                <div className="mb-4 inline-block p-3 bg-gradient-to-br from-primary/10 to-accent/10 rounded-lg group-hover:scale-110 transition-transform">
+                <div className="mb-4 inline-block p-3 bg-gradient-to-br from-primary/10 to-primary/5 rounded-lg group-hover:scale-110 transition-transform">
                   <feature.icon className="h-8 w-8 text-primary" />
                 </div>
                 <h3 className="text-xl font-bold mb-2 group-hover:text-primary transition-colors">

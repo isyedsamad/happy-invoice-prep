@@ -27,9 +27,9 @@ const ThemeToggle = () => {
       className="w-9 h-9 transition-transform hover:scale-110"
     >
       {theme === "dark" ? (
-        <Sun className="h-5 w-5 text-accent transition-transform rotate-0 scale-100" />
+        <Sun className="h-5 w-5 text-primary transition-transform rotate-0 scale-100" />
       ) : (
-        <Moon className="h-5 w-5 text-primary transition-transform rotate-0 scale-100" />
+        <Moon className="h-5 w-5 text-accent transition-transform rotate-0 scale-100" />
       )}
       <span className="sr-only">Toggle theme</span>
     </Button>
