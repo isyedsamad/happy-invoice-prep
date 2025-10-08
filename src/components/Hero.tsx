@@ -28,6 +28,7 @@ const Hero = () => {
               Start Free Today
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
+            <a href="https://happyinvoice--happyinvoice-e72af.us-central1.hosted.app/signin" target="_blank">
             <Button 
               size="lg" 
               variant="outline"
@@ -35,7 +36,7 @@ const Hero = () => {
             >
               <Play className="mr-2 h-5 w-5" />
               See it in Action
-            </Button>
+            </Button></a>
           </div>
 
           {/* Mock dashboard preview */}
